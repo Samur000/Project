@@ -183,11 +183,11 @@ header {
 }
 @media screen and (max-width:576px) {
    .partners .row .col-lg-2{
-      padding: 30px 75px;
+      padding: 30px 25px;
    }
 }
 @media screen and (max-width:350px) {
    .partners .row .col-lg-2{
-      padding: 30px 75px;
+      padding: 30px 15px;
    }
 }
