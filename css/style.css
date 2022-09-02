@@ -19,7 +19,7 @@ header {
 
 .navbar {
    width: 100%;
-   background-color: #eaeaea;
+   background-color: #75ffbf;
 }
 .navbar-nav .nav-link {
    font-size: 16px;
@@ -128,7 +128,7 @@ header {
 /*! SERVICES */
 
 .services {
-   background-color: #9fc7ff;
+   background-color: rgb(231, 231, 231);
 }
 .services .row a {
    display: flex;
