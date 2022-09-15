@@ -105,10 +105,12 @@ header {
    transition: .3s;
 }
 .card:hover>.card-header {
-   background-color: rgb(228, 255, 255);
+   background-color: #eb902f;
+   color: #fff;
 }
 .card:hover>.card-body {
-   background-color: rgb(211, 251, 251);
+   background-color: #eb902f;
+   color: #fff;
 }
 .card-image {
    max-width: 390px;
