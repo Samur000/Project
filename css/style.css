@@ -164,11 +164,11 @@ header {
 /*! ABOUT */
 
 .about a{
-   color: #ab2524;
+   color: #BF6505;
    text-decoration: underline;
 }
 .about a:hover{
-   color: #fe6969;
+   color: #eb902f;
    text-decoration: none;
 }
 
