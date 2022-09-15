@@ -40,11 +40,11 @@ header {
    background-color: #f1f0f0;
 }
 .dropdown-item:active {
-   background-color: #3c3c3c;
+   background-color: #BF6505;
    /*? ФОН ПРИ НАЖАТИИ */
 }
 .dropdown-item:hover {
-   background-color: #000000;
+   background-color: #BF6505;
    /*? ФОН ПРИ НАВЕДЕНИИ */
    color: #fff;
    /*? ЦВЕТ ПРИ НАВЕДЕНИИ */
@@ -82,17 +82,31 @@ header {
    align-items: center;
 }
 .home {
-   background-image: url(../images/mainBG.png);
+   /* background-image: url(../images/mainBG.png); */
+   background-color: #f1f0f0;
 
    background-attachment: fixed;
    background-position: 50% 100%;
    background-repeat: no-repeat;
    background-size: cover;
 }
+.home__image img{
+   max-width: 450px;
+   margin: 0px 0px 20px 0px;
+   
+}
 
+@media screen and (max-width:700px) {
+   .home__image img{
+      max-width: 350px;
+   }
+}
 @media screen and (max-width:500px) {
    .home .container {
       height: 500px;
+   }
+   .home__image img{
+      max-width: 250px;
    }
 }
 
