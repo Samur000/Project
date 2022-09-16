@@ -189,7 +189,7 @@ header {
    height: 100%;
 }
 
-/*! PARTNER */
+/*! PARTNERS */
 
 .partners{
    background-color: rgb(231, 231, 231);
@@ -206,4 +206,57 @@ header {
    .partners .row .col-lg-2{
       padding: 30px 15px;
    }
+}
+
+/*! SERTIFICATES */
+
+
+
+
+
+/*! FOOTER */
+
+.footer{
+}
+.footer__logo{
+   /* margin: 0px 70px 0px 0px; */
+}
+.footer__logo img{
+   height: 85px;
+   margin: 0px 10px 20px 0px;
+}
+.footer__title{
+   font-size: 20px;
+   color: #BF6505;
+   font-weight: 500;
+}
+.footer__link{
+   font-size: 16px;
+   font-weight: 500;
+}
+.footer__link:hover{
+   color: #BF6505;
+}
+.footer__socials{
+   display: flex;
+   gap: 25px;
+}
+
+@media screen and (max-width:1200px) {
+   .footer__logo{
+      /* text-align: center; */
+   }
+   .footer img{
+      margin: 0px 10px 20px 0px;
+   }
+}
+@media screen and (max-width:992px) {
+
+}
+@media screen and (max-width:992px) {
+   
+}
+@media screen and (max-width:768px) {
+}
+@media screen and (max-width:576px) {
 }
