@@ -84,7 +84,7 @@ body {
 /*! SERVICES */
 
 .services {
-   background-color: rgb(231, 231, 231);
+   background-color: #F1F0F0;
 }
 .services .row a {
    display: flex;
@@ -132,7 +132,7 @@ body {
 /*! PARTNERS */
 
 .partners{
-   background-color: rgb(231, 231, 231);
+   background-color: #F1F0F0;
 }
 .partners .row .col-lg-2{
    padding: 25px;
@@ -150,6 +150,9 @@ body {
 
 /*! SERTIFICATES */
 
-
+.sertificates img{
+   border: 1px solid #000;
+   
+}
 
 

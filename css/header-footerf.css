@@ -77,8 +77,11 @@ header {
 
 /*! FOOTER */
 
-.footer__logo{
-   /* margin: 0px 70px 0px 0px; */
+.footer{
+   background-color: #64e8c0;
+}
+.footer__logo span{
+ font-weight: 500;
 }
 .footer__logo img{
    height: 85px;
@@ -101,11 +104,21 @@ header {
    gap: 25px;
 }
 
+
+
 @media screen and (max-width:1200px) {
    .footer__logo{
       text-align: center;
    }
    .footer img{
-      margin: 0px 10px 20px 0px;
+      margin: 0px 10px 10px 0px;
+   }
+   .footer__list{
+      margin: 15px 0px 0px 0px;
+   }
+}
+@media screen and (min-width:1200px) {
+   .footer__list{
+      margin: 64px 0px 0px 0px;
    }
 }
