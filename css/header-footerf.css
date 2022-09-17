@@ -88,7 +88,7 @@ header {
    /* margin: 0px 10px 20px 0px; */
 }
 .footer__title{
-   font-size: 20px;
+   font-size: 23px;
    
    font-weight: 500;
 }
@@ -105,19 +105,13 @@ header {
    display: flex;
    gap: 25px;
 }
-
+.footer span{
+   /* font-size: 14px; */
+}
 
 
 @media screen and (max-width:1200px) {
-   .footer__logo{
-      /* text-align: center; */
-   }
-   .footer img{
-      /* margin: 0px 10px 10px 0px; */
-   }
-   .footer__list{
-      /* margin: 15px 0px 0px 0px; */
-   }
+
 }
 @media screen and (max-width:400px) {
    .col-xl-3{
@@ -128,9 +122,6 @@ header {
    }
 }
 @media screen and (min-width:1200px) {
-   .footer__list{
-      /* margin: 64px 0px 0px 0px; */
-   }
 }
 
 
