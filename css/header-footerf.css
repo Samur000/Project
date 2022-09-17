@@ -89,15 +89,17 @@ header {
 }
 .footer__title{
    font-size: 20px;
-   color: #BF6505;
+   
    font-weight: 500;
 }
 .footer__link{
    font-size: 14px;
    font-weight: 400;
+   color: #BF6505;
+   text-decoration: underline;
 }
 .footer__link:hover{
-   color: #BF6505;
+   color: #000;
 }
 .footer__socials{
    display: flex;
