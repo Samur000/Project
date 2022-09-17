@@ -1,3 +1,14 @@
-.home{
-   height: 100vh;
+.subtitle{
+   font-size: 23px; 
+   font-weight: 500;
+   color: #BF6505;
+}
+
+.production a{
+   color: #ff0000;
+   text-decoration: underline;
+}
+.production a:hover{
+   color: #BF6505;
+   text-decoration: none;
 }
