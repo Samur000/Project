@@ -155,4 +155,15 @@ body {
    
 }
 
+.sertificates__slider{
+   display: none;
+}
 
+@media screen and (max-width:450px) {
+   .sertificates{
+      display: none;
+   }
+   .sertificates__slider{
+      display: flex;
+   }
+}
