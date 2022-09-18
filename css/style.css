@@ -64,7 +64,7 @@ header{
 }
 .card-header {
    transition: .3s;
-   font-size: 14px;
+   font-size: 16px;
 }
 .card:hover>.card-header {
    background-color: #eb902f;
@@ -96,7 +96,7 @@ header{
 }
 .services .row a {
    display: flex;
-   justify-content: center;
+   /* justify-content: center; */
 }
 .services-card-image {
    padding: 0px 0px;
