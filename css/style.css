@@ -139,6 +139,10 @@ header{
 
 /*! PARTNERS */
 
+.partners, .partners__mini{
+   z-index: 0;
+   position: relative;
+}
 .partners__mini{
    display: none;
 }
@@ -171,14 +175,12 @@ header{
    background-color: #000;
    z-index: 0;
    position: relative;
+   display: none;
 }
 .sertificates img{
    border: 1px solid #000;  
 }
 
-.sertificates__slider{
-   display: none;
-}
 .footer__accordeon{
    display: none;
 }
