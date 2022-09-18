@@ -183,11 +183,19 @@ header{
    display: none;
 }
 
-@media screen and (max-width:500px) {
-   .sertificates, .footer{
+@media screen and (max-width:450px) {
+   .sertificates{
       display: none;
    }
-   .sertificates__slider, .footer__accordeon{
+   .sertificates__slider{
+      display: flex;
+   } 
+}
+@media screen and (max-width:700px) {
+   .footer{
+      display: none;
+   }
+   .footer__accordeon{
       display: flex;
    } 
 }
