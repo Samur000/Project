@@ -146,7 +146,7 @@ header{
 .partners__mini{
    display: none;
 }
-.partners{
+.partners, .partners__mini{
    background-color: #F1F0F0;
 }
 .partners .row .col-lg-2{
@@ -181,9 +181,6 @@ header{
    border: 1px solid #000;  
 }
 
-.footer__accordeon{
-   display: none;
-}
 
 @media screen and (max-width:450px) {
    .sertificates{
@@ -193,14 +190,7 @@ header{
       display: flex;
    } 
 }
-@media screen and (max-width:700px) {
-   .footer{
-      display: none;
-   }
-   .footer__accordeon{
-      display: flex;
-   } 
-}
+
 @media screen and (max-width:1200px) {
    .partners{
       display: none;
