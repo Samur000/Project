@@ -184,10 +184,10 @@ header{
 }
 
 @media screen and (max-width:450px) {
-   .sertificates, .footer,{
+   .sertificates, .footer{
       display: none;
    }
-   .sertificates__slider, .footer__accordeon,{
+   .sertificates__slider, .footer__accordeon{
       display: flex;
    } 
 }
