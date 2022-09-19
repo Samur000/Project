@@ -111,7 +111,8 @@ footer{
    text-decoration: underline;
 }
 .footer__link:hover{
-   color: #000;
+   color: rgb(212, 126, 21);
+   text-decoration: none;
 }
 .footer__socials{
    display: flex;
