@@ -141,6 +141,11 @@ footer{
 
 /*! BEADCRUMB */
 
+.beadcrumb{
+   position: sticky;
+   top: 70px;
+   background-color: #fff;
+}
 .beadcrumb__list{
    display: flex;
    gap: 5px;
