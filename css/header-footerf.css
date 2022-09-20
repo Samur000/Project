@@ -79,18 +79,18 @@ header {
 
 .footer__accordeon .accordion-item,
 .accordion-button{
-   background-color: #64e8c0;
+   background-color: #BF6505;
 }
 .accordion-button{
    box-shadow: none !important;
 }
 .accordion-button:not(.collapsed) {
    color: #000000;
-   background-color: #64e8c0;
+   background-color: #BF6505;
    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 }
 footer{
-   background-color: #64e8c0;
+   background-color: #BF6505;
 }
 .footer__logo span{
  font-weight: 500;
@@ -101,17 +101,18 @@ footer{
 }
 .footer__title{
    font-size: 23px;
-   
    font-weight: 500;
+
+   color: rgb(205, 205, 205);
 }
 .footer__link{
    font-size: 14px;
    font-weight: 400;
-   color: #201d3e;
+   color: #141416;
    text-decoration: underline;
 }
 .footer__link:hover{
-   color: rgb(212, 126, 21);
+   color: rgb(208, 205, 202);
    text-decoration: none;
 }
 .footer__socials{
