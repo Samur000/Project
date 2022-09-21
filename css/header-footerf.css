@@ -99,13 +99,13 @@ footer{
    height: 85px;
 }
 .footer__title{
-   font-size: 21px;
+   font-size: 20px;
    font-weight: 500;
 
    color: rgb(238, 238, 238);
 }
 .footer__link{
-   font-size: 17px;
+   font-size: 16px;
    font-weight: 400;
    color: #141416;
    text-decoration: underline;
