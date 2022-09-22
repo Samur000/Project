@@ -1,3 +1,26 @@
-.home{
-   height: 100vh;
+
+.paneli__item{
+   border: 1px solid #000;
+   border-radius: 5px;
+   margin: 15px;
+}
+
+.stena__cards img{
+   padding: 0px 10px 0px 10px;
+}
+.info__item{
+   border: 1px solid #000;
+   border-radius: 5px;
+   padding: 15px 15px;
+   margin: 0px 0px 20px 0px;
+   
+}
+.info__title{
+   font-size: 22px;
+   font-weight: 500;
+   color: rgb(255, 95, 15);
+}
+.info__txt{
+   font-size: 17px;
+   /* font-weight: 400; */
 }
