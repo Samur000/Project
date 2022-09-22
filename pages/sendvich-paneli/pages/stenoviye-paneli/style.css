@@ -16,11 +16,10 @@
    
 }
 .info__title{
-   font-size: 22px;
+   font-size: 20px;
    font-weight: 500;
    color: rgb(255, 95, 15);
 }
 .info__txt{
-   font-size: 17px;
-   /* font-weight: 400; */
+   font-size: 16px;
 }
