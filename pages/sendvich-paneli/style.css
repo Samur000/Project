@@ -3,3 +3,6 @@
    flex-direction: column;
    justify-content: space-between;
 }
+.paneli__cards img{
+   padding: 0px 45px;
+}
