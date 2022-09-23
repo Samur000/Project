@@ -1,3 +1,13 @@
 .home{
    height: 100vh;
 }
+
+.krovel__cards img{
+   padding: 0px 10px 0px 10px;
+}
+
+@media screen and (max-width:575px) {
+   .krovel__cards img{
+      padding: 0px 50px 0px 50px;
+   }
+}
