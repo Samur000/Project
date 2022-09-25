@@ -1,8 +1,22 @@
 .card-body{
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   justify-content: end;
+}
+.card-body a{
+   font-size: 14px;
 }
 .paneli__cards img{
    padding: 0px 45px;
+}
+@media screen and (max-width:767px) {
+   .paneli__cards img{
+      padding: 0px 15px;
+   }
+}
+.card-title{
+   font-size: 17px;
+}
+.card-text{
+   font-size: 16px;
 }
