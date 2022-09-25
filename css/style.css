@@ -59,34 +59,23 @@ header{
 
 /*! PRODUCTS */
 
-.card-body {
-   transition: .3s;
+.products .card img{
+   padding: 10px 15px;
 }
-.card-header {
-   transition: .3s;
-   font-size: 16px;
-}
-.card:hover>.card-header {
-   background-color: #eb902f;
-   color: #fff;
-}
-.card:hover>.card-body {
-   background-color: #eb902f;
-   color: #fff;
-}
-.card-image {
-   max-width: 390px;
-   height: 220px;
+
+.products .card-body{
    display: flex;
-   align-items: center;
-   justify-content: center;
+   flex-direction: column;
+   justify-content: end;
 }
-.card-image img {
-   width: 100%;
+
+.products .list-group a{
+   color: rgb(47, 76, 224);
+   text-decoration: underline;
 }
-.products .row a {
-   display: flex;
-   justify-content: center;
+.products .list-group a:hover{
+   color: rgb(50, 72, 182);
+   text-decoration: none;
 }
 
 /*! SERVICES */
@@ -96,7 +85,6 @@ header{
 }
 .services .row a {
    display: flex;
-   /* justify-content: center; */
 }
 .services-card-image {
    padding: 0px 0px;
