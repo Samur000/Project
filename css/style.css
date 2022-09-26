@@ -59,23 +59,34 @@ header{
 
 /*! PRODUCTS */
 
-.products .card img{
-   padding: 10px 15px;
+.card-body {
+   transition: .3s;
 }
-
-.products .card-body{
+.card-header {
+   transition: .3s;
+   font-size: 16px;
+}
+.card:hover>.card-header {
+   background-color: #eb902f;
+   color: #fff;
+}
+.card:hover>.card-body {
+   background-color: #eb902f;
+   color: #fff;
+}
+.card-image {
+   max-width: 390px;
+   height: 220px;
    display: flex;
-   flex-direction: column;
-   justify-content: end;
+   align-items: center;
+   justify-content: center;
 }
-
-.products .list-group a{
-   color: rgb(47, 76, 224);
-   text-decoration: underline;
+.card-image img {
+   width: 100%;
 }
-.products .list-group a:hover{
-   color: rgb(50, 72, 182);
-   text-decoration: none;
+.products .row a {
+   display: flex;
+   justify-content: center;
 }
 
 /*! SERVICES */
