@@ -2,12 +2,12 @@
    background-color: rgb(222, 222, 222);
    margin: 20px 0px;
 }
-.row{
-   padding: 0 10px;
-}
 
 @media screen and (max-width:992px) {
    .image img{
-      width: 45%;
+      width: 55%;
    }
+}
+.row{
+   padding: 0 10px;
 }
