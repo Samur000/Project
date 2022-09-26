@@ -10,6 +10,10 @@
 }
 
 
+.card{
+   background-color: rgb(204, 204, 204);
+}
+
 .info__item{
    border: 1px solid #000;
    border-radius: 5px;
@@ -24,10 +28,10 @@
 }
 .card-title{
    font-size: 18px;
-   font-weight: 500;
+   font-weight: 600;
 }
 .info__txt{
-   font-size: 16px;
+   font-size: 1px;
 }
 .card-text{
    font-size: 16px;
