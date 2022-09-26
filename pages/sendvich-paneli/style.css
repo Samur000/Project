@@ -3,20 +3,18 @@
    flex-direction: column;
    justify-content: end;
 }
-.card-body a{
+/* .card-body a{
    font-size: 14px;
-}
+} */
 .paneli__cards img{
    padding: 0px 45px;
 }
 @media screen and (max-width:767px) {
    .paneli__cards img{
-      padding: 0px 5px;
+      padding: 0px 45px;
    }
 }
 .card-title{
-   font-size: 18px;
-}
-.card-text{
-   font-size: 14px;
+   font-weight: 600;
+   font-size: 20px;
 }
