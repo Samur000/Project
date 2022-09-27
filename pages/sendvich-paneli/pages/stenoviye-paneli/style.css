@@ -28,7 +28,8 @@
 }
 .card-title{
    font-size: 18px;
-   font-weight: 600;
+   font-weight: 500;
+   text-decoration: underline;
 }
 .info__txt{
    font-size: 1px;

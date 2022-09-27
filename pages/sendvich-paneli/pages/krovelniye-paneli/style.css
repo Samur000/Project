@@ -12,3 +12,11 @@
 .card{
    background-color: rgb(204, 204, 204);
 }
+.card-title{
+   font-size: 18px;
+   font-weight: 500;
+   text-decoration: underline;
+}
+.card-text{
+   font-size: 16px;
+}
