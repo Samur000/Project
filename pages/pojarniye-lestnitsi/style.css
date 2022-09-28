@@ -8,12 +8,7 @@
    margin: 0px 0px 10px 10px;
    
 }
-/* .image{
-   background-color: rgb(240, 240, 240);
-   margin: 20px 0px;
-   padding: 5px 5px;
-   border-radius: 5px;
-} */
+
 .image img{
    width: 100%;
 }
@@ -32,4 +27,28 @@
    border: 1px solid rgb(190, 190, 190);
    border-radius: 5px;
    margin: 20px 0;
+}
+
+.card-body{
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+}
+.card img{
+   padding: 0px 15px;
+   margin: 10px 0px 0px 0px;
+}
+@media screen and (max-width:767px) {
+   .card img{
+      padding: 0px 45px;
+   }
+}
+.card-title{
+   font-weight: 500;
+   font-size: 18px;
+}
+.image{
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
