@@ -3,21 +3,33 @@
    font-weight: 500;
    color: #d76309;
    text-decoration: underline;
-   font-size: 20px;
+   font-size: 18px;
+   display: block;
+   margin: 0px 0px 10px 10px;
+   
 }
-.image{
-   background-color: rgb(222, 222, 222);
+/* .image{
+   background-color: rgb(240, 240, 240);
    margin: 20px 0px;
-}
+   padding: 5px 5px;
+   border-radius: 5px;
+} */
 .image img{
    width: 100%;
 }
 
 @media screen and (max-width:992px) {
    .image img{
-      width: 55%;
+      width: 65%;
    }
 }
 .row{
    padding: 0 10px;
+}
+.item{
+   padding: 15px 5px 10px 5px;
+   
+   border: 1px solid rgb(190, 190, 190);
+   border-radius: 5px;
+   margin: 20px 0;
 }
