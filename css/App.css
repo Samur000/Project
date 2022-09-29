@@ -159,3 +159,10 @@ footer{
    color: #BF6505;
    text-decoration: underline;
 }
+
+/*! ZAKAZ */
+
+.zakaz{
+   height: 250px;
+   background-color: #605e5c;
+}
