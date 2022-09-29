@@ -26,6 +26,7 @@
 .kind-title{
    font-weight: 600;
    font-size: 18px;
+   text-decoration: underline;
 }
 .kind-bold{
    font-weight: 600;
