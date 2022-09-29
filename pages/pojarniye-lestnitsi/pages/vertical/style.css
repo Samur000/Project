@@ -3,7 +3,30 @@
 }
 .home__images img{
    width: 100%;
-   /* height: 350px; */
    border: 1px solid rgb(210, 200, 200);
    border-radius: 7px;
+}
+.images img{
+   width: 100%;
+   border: 1px solid rgb(210, 200, 200);
+   border-radius: 7px;
+}
+.home__txt span{
+   text-decoration: underline;
+   font-weight: 500;
+   font-size: 17px;
+}
+.kind{
+   border: 1px solid rgb(210, 200, 200);
+   border-radius: 7px;
+   padding: 10px 0;
+   margin: 10px 0;
+}
+
+.kind-title{
+   font-weight: 600;
+   font-size: 18px;
+}
+.kind-bold{
+   font-weight: 600;
 }
