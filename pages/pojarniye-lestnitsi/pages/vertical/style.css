@@ -30,3 +30,9 @@
 .kind-bold{
    font-weight: 600;
 }
+.lest__gallery{
+   border: 1px solid rgb(210, 200, 200);
+   border-radius: 7px;
+   padding: 5px 0px 10px 0px;
+   margin: 10px 0;
+}
