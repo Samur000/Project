@@ -94,6 +94,9 @@ header{
 .services {
    background-color: #F1F0F0;
 }
+.services .card-header{
+   font-size: 15px;
+}
 .services .row a {
    display: flex;
 }
