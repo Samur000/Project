@@ -1,3 +1,16 @@
 .home{
-   min-height: 100vh;
+   padding: 20px 0px;   
+}
+.images img{
+   width: 100%;
+   border-radius: 7px;
+}
+
+@media screen and (max-width:768px) {
+   .row-2{
+      flex-direction: column-reverse;
+   }
+   .row-4{
+      flex-direction: column-reverse;
+   }
 }
