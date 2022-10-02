@@ -4,7 +4,7 @@
    justify-content: end;
 }
 .card img{
-   padding: 0px 55px;
+   padding: 0px 15px;
 }
 .card-title{
    font-weight: 500;
@@ -14,8 +14,5 @@
 @media screen and (max-width:600px) {
    .card-title{
       font-size: 16px;
-   }
-   .card img{
-      padding: 0px 10px;
    }
 }
