@@ -3,6 +3,13 @@
 }
 .images img{
    width: 100%;
-   margin: 0px 0px 20px 0px;
-   
+   margin: 0px 0px 20px 0px;  
+}
+.home a{
+   color: rgb(235, 131, 19);
+   text-decoration: underline;
+}
+.home a:hover{
+   color: blue;
+   text-decoration: none;
 }
