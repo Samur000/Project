@@ -1,16 +1,17 @@
-
-.krovel__cards img{
-   padding: 0px 55px;
-}
-
 .card{
    background-color: rgb(237, 237, 237);
 }
-.card-title{
-   font-size: 18px;
-   font-weight: 500;
-   text-decoration: underline;
+
+.krovel__cards img{
+   padding: 0px 15px;
 }
-.card-text{
-   font-size: 16px;
+
+.card-title{
+   font-size: 20px;
+   font-weight: 500;
+}
+@media screen and (max-width:450px) {
+   .card-title{
+      font-size: 18px;
+   }
 }
