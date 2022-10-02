@@ -1,14 +1,8 @@
 
 .krovel__cards img{
-   padding: 0px 45px;
+   padding: 0px 55px;
 }
 
-@media screen and (max-width:575px) {
-   .krovel__cards img{
-      padding: 0px 50px 0px 50px;
-      
-   }
-}
 .card{
    background-color: rgb(237, 237, 237);
 }
