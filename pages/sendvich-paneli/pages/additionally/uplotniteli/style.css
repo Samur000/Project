@@ -1,3 +1,31 @@
-.home{
-   height: 100vh;
+body span{
+   font-weight: 00;
+}
+
+.row-ppe{
+   padding: 10px 0px 20px 0px;
+   margin: 20px 0;
+   border: 1px solid rgb(193, 188, 188);
+   border-radius: 7px;
+}
+
+.images img{
+   width: 100%;
+}
+
+.card{
+   background-color: rgb(237, 237, 237);
+}
+.uplotnitel__cards img{
+   padding: 0px 15px;
+   margin: 10px 0px 0px 0px;
+}
+.card-title{
+   font-size: 20px;
+   font-weight: 500;
+}
+@media screen and (max-width:450px) {
+   .card-title{
+      font-size: 18px;
+   }
 }
