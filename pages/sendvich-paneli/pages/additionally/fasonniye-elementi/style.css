@@ -1,3 +1,6 @@
 .home{
    height: 100vh;
 }
+.images img{
+   width: 100%;
+}
