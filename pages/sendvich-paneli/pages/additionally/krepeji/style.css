@@ -1,3 +1,10 @@
-.home{
-   height: 100vh;
+
+.images img{
+   width: 100%;
+}
+.row-krepej{
+   padding: 20px 0;
+   margin: 10px 3px;
+   border: 1px solid rgb(162, 160, 160);
+   border-radius: 7px;
 }
