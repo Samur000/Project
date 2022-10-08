@@ -162,7 +162,67 @@ footer{
 
 /*! ZAKAZ */
 
+.form *{
+   outline: none;
+}
+
 .zakaz{
-   height: 250px;
-   background-color: #605e5c;
+   background-color: #ebebeb;
+   color: rgb(0, 0, 0);
+   padding: 20px 0;
+}
+.zakaz a{
+   color: #eb871d;
+   text-decoration: underline;
+}
+.zakaz a:hover{
+   color: #e56b14;
+   text-decoration: none;
+}
+.zakaz__form{
+   display: flex;
+   flex-direction: column;
+   max-width: 450px;
+   margin: 0px auto;
+}
+.form__item {
+   margin: 0px 0px 10px 0px;
+}
+.form__label {
+   font-size: 18px;
+   display: block;
+   margin: 5px 0px 0px 0px;
+}
+.form__input {
+   height: 35px;
+   padding: 0 10px;
+   border-radius: 5px;
+   width: 100%;
+   border: 1px solid rgb(139, 139, 139);
+   outline: none;
+}
+.form__input:focus{
+   box-shadow: 0 0 5px #f99a47;
+   border: 1px solid rgb(213, 213, 213);
+}
+.form__input._error{
+   box-shadow: 0 0 5px red;
+}
+.form__button {
+   margin: 10px 0px 0px 0px;
+   border: 2px solid #f99a47;
+   color: #f99a47;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 35px;
+   text-transform: uppercase;
+   font-weight: 700;
+   cursor: pointer;
+   border-radius: 5px;
+}
+.form__button:hover{
+   background-color: #f99a47;
+   color: #fbfbfb;
+   border: 1px solid rgb(229, 84, 22);
 }
