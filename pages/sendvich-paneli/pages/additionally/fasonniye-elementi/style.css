@@ -1,6 +1,25 @@
 .home{
-   height: 100vh;
+   padding: 20px 0;
 }
-.images img{
+table, tr, td{
+   border: 1px solid #000;
+   background-color: #EEEEEE;
+   position: relative;
+}
+table{
    width: 100%;
+}
+tr{
+}
+td{
+   padding: 5px 10px;
+}
+
+td img{
+   width: 40%;
+}
+@media screen and (max-width:800px){
+   td img{
+      width: 100%;
+   } 
 }
