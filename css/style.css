@@ -169,12 +169,12 @@ header{
 /*! SERTIFICATES */
 
 .sertificates{
-   background-color: rgb(30, 31, 43);
+   background-color: rgb(78, 78, 80);
    z-index: 0;
    position: relative;
 }
 .sertificates__mini{
-   background-color: #000;
+   background-color: rgb(78, 78, 80);
    z-index: 0;
    position: relative;
    display: none;
