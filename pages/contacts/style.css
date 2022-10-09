@@ -1,8 +1,7 @@
-.home{
-   /* height: 100vh; */
-}
-
 .contacts__link{
    text-decoration: underline;
    color: #BF6505;
+}
+.grafik span{
+   font-weight: 600;
 }

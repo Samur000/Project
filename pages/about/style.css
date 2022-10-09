@@ -5,11 +5,11 @@
 }
 
 .production a{
-   color: #ff0000;
+   color: #BF6505;
    text-decoration: underline;
 }
 .production a:hover{
-   color: #BF6505;
+   color: #aa6215;
    text-decoration: none;
 }
 .embed-container {
