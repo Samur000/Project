@@ -209,20 +209,27 @@ footer{
    box-shadow: 0 0 5px red;
 }
 .form__button {
+   height: 40px;
    margin: 10px 0px 0px 0px;
    border: 2px solid #f99a47;
-   color: #f99a47;
+   color: #ffffff;
+   background-color: #de6f1a;
    display: flex;
    justify-content: center;
    align-items: center;
-   height: 35px;
    text-transform: uppercase;
    font-weight: 700;
+   letter-spacing: 2px;
    cursor: pointer;
    border-radius: 5px;
 }
 .form__button:hover{
    background-color: #f99a47;
    color: #fbfbfb;
+   border: 1px solid rgb(229, 84, 22);
+}
+.form__button:focus{
+   background-color: #e8e8e8;
+   color: rgb(229, 84, 22);
    border: 1px solid rgb(229, 84, 22);
 }
