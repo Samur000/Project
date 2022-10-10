@@ -121,10 +121,21 @@ footer{
    display: flex;
    gap: 25px;
 }
-
 .footer__accordeon{
    display: none;
 }
+.footer-signature {
+   text-align: center;
+}
+.footer-signature a{
+   text-decoration: none;
+   color: #79de1a;
+}
+.footer-signature a:hover{
+   text-decoration: underline;
+   color: #ff9341;
+}
+
 @media screen and (max-width:770px) {
    .footer{
       display: none;
@@ -136,8 +147,7 @@ footer{
       font-size: 18px;
    }
 }
-@media screen and (min-width:1200px) {
-}
+
 
 
 /*! BEADCRUMB */
