@@ -135,6 +135,13 @@ footer{
    text-decoration: underline;
    color: #ff9341;
 }
+.footer-accordeon-socials{
+   margin: 10px 0px 0px 0px;
+   
+   display: flex;
+   justify-content: center;
+   gap: 25px;
+}
 
 @media screen and (max-width:770px) {
    .footer{
