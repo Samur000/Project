@@ -4,6 +4,10 @@ body{
 .home{
    min-height: 100vh;
 }
+.home span{
+   font-weight: 500;
+   /* text-decoration: underline; */
+}
 .dostavka__link{
    text-decoration: underline;
    color: #BF6505;
