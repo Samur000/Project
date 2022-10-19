@@ -301,11 +301,11 @@ footer{
 
 @media screen and (max-width: 600px) {
    .button__callback a{
-      width: 65px;
-      height: 65px;
-      padding: 15px;
+      width: 60px;
+      height: 60px;
+      padding: 17px;
       bottom: 25px;
-      right: 35px;
+      right: 30px;
    }
 }
 
