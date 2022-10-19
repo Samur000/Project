@@ -137,6 +137,48 @@
     </div>
   </div>
 
+  <div class="button__callback">
+    <a  data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="../../../../../../icons/phone-call.png" alt=""></a>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title text-center" id="exampleModalLabel">Оставьте номер и мы перезвоним Вам!</h3>
+        </div>
+        <div class="modal-body">
+          <div class="zakaz">
+            <div class="container">
+              <form id="form" class="zakaz__form">
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="ЭРА СТАЛЬ">
+                <input type="hidden" name="admin_email" value="stal.era.pochta@gmail.com">
+                <input type="hidden" name="form_subject" value="Обратный звонок">
+                <!-- END Hidden Required Fields -->
+        
+                <div class="form__item">
+                  <label for="formNmae" class="form__label">Имя*</label>
+                  <input id="formNmae" type="text" name="Имя" class="form__input" required>
+                </div>
+                <div class="form__item">
+                    <label for="formEmail" class="form__label">E-mail*</label>
+                    <input id="formEmail" type="text" name="E-mail" class="form__input" required>
+                </div>
+                <div class="form__item">
+                    <label for="formPhone" class="form__label">Телефон*</label>
+                    <input id="formPhone" type="text" name="Телефон " class="form__input" required>
+                </div>
+                <button class="form__button">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <footer class="footer">
     <div class="container pt-3 pb-3">
       <div class="row justify-content-between pt-3">
@@ -176,8 +218,6 @@
         </div>
         <hr>
         <div class="footer-signature">© ООО "ЭРА СТАЛЬ" 2009-2022<br>Сайт разработал: <a href="mailto:qsamur@gmail.com">Самур</a></div>
-        
-
       </div>
     </div>
   </footer>

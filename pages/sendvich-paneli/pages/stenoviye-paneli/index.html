@@ -86,21 +86,17 @@
   <div class="stena__cards">
     <div class="container">
       <h2 class="mb-4 mt-3">Стеновые сэндвич панели</h2> 
-
       <div class="row pb-5">
-
         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 mb-3 d-flex justify-content-center ">
           <div class="card" style="width: 17rem;">
             <img src="images/mvu.png" width="100%" class="card-img-top" alt="...">
             <div class="card-body d-flex flex-column justify-content-between">
-
               <div class="d-flex flex-column mb-3">
                 <p class="card-title">Стеновая панель МВУ</p>
               </div>
               <div class="d-flex flex-column">
                 <a href="pages/stenovaya-mvu/" class="btn btn-primary ">Подробнее</a>
               </div>
-
             </div>
           </div>
         </div>
@@ -109,14 +105,12 @@
           <div class="card" style="width: 17rem;">
             <img src="images/pir.png" width="100%" class="card-img-top" alt="...">
             <div class="card-body d-flex flex-column justify-content-between">
-
               <div class="d-flex flex-column mb-3">
                 <p class="card-title">Стеновая панель ПИР</p>
               </div>
               <div class="d-flex flex-column">
                 <a href="pages/stenovaya-pir/" class="btn btn-primary ">Подробнее</a>
               </div>
-
             </div>
           </div>
         </div>
@@ -125,14 +119,12 @@
           <div class="card" style="width: 17rem;">
             <img src="images/ppu.png" width="100%" class="card-img-top" alt="...">
             <div class="card-body d-flex flex-column justify-content-between">
-
               <div class="d-flex flex-column mb-3">
                 <p class="card-title">Стеновая панель ППУ</p>
               </div>
               <div class="d-flex flex-column">
                 <a href="pages/stenovaya-ppu/" class="btn btn-primary ">Подробнее</a>
               </div>
-
             </div>
           </div>
         </div>
@@ -141,20 +133,57 @@
           <div class="card" style="width: 17rem;">
             <img src="images/pps.png" width="100%" class="card-img-top" alt="...">
             <div class="card-body d-flex flex-column justify-content-between">
-
               <div class="d-flex flex-column mb-3">
                 <p class="card-title">Стеновая панель ППС</p>
               </div>
               <div class="d-flex flex-column">
                 <a href="pages/stenovaya-pps/" class="btn btn-primary ">Подробнее</a>
               </div>
-
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="button__callback">
+    <a  data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="../../../../icons/phone-call.png" alt=""></a>
+  </div>
 
-
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title text-center" id="exampleModalLabel">Оставьте номер и мы перезвоним Вам!</h3>
+        </div>
+        <div class="modal-body">
+          <div class="zakaz">
+            <div class="container">
+              <form id="form" class="zakaz__form">
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="ЭРА СТАЛЬ">
+                <input type="hidden" name="admin_email" value="stal.era.pochta@gmail.com">
+                <input type="hidden" name="form_subject" value="Обратный звонок">
+                <!-- END Hidden Required Fields -->
+        
+                <div class="form__item">
+                  <label for="formNmae" class="form__label">Имя*</label>
+                  <input id="formNmae" type="text" name="Имя" class="form__input" required>
+                </div>
+                <div class="form__item">
+                    <label for="formEmail" class="form__label">E-mail*</label>
+                    <input id="formEmail" type="text" name="E-mail" class="form__input" required>
+                </div>
+                <div class="form__item">
+                    <label for="formPhone" class="form__label">Телефон*</label>
+                    <input id="formPhone" type="text" name="Телефон " class="form__input" required>
+                </div>
+                <button class="form__button">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -198,8 +227,6 @@
         </div>
         <hr>
         <div class="footer-signature">© ООО "ЭРА СТАЛЬ" 2009-2022<br>Сайт разработал: <a href="mailto:qsamur@gmail.com">Самур</a></div>
-        
-
       </div>
     </div>
   </footer>
