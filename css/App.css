@@ -256,3 +256,65 @@ footer{
    color: rgb(229, 84, 22);
    border: 1px solid rgb(229, 84, 22);
 }
+
+/*! CALLABCK */
+
+.button__callback{
+}
+.button__callback a{
+   cursor: pointer;
+   position: fixed;
+   z-index: 2;
+   bottom: 50px;
+   right: 50px;
+   background-color: #de6f1a;
+   display: flex;
+   width: 70px;
+   height: 70px;
+   padding: 18px;
+   border-radius: 50%;
+   -webkit-animation: hoverWave linear 1s infinite;
+   animation: hoverWave linear 1s infinite;
+}
+
+.button__callback a img{
+   width: 100%;
+}
+
+@keyframes hoverWave {
+   0% {
+       box-shadow: 0 8px 10px rgba(241, 107, 18, 0.3), 0 0 0 0 rgba(218, 114, 10, 0.2), 0 0 0 0 rgba(202, 83, 15, 0.2)
+   }
+
+   40% {
+       box-shadow: 0 8px 10px rgba(241, 107, 18, 0.3), 0 0 0 15px rgba(218, 114, 10, 0.2), 0 0 0 0 rgba(202, 83, 15, 0.2)
+   }
+
+   80% {
+       box-shadow: 0 8px 10px rgba(241, 107, 18, 0.3), 0 0 0 30px rgba(43, 255, 0, 0), 0 0 0 26.7px rgba(226, 145, 40, 0.067)
+   }
+
+   100% {
+       box-shadow: 0 8px 10px rgba(241, 107, 18, 0.3), 0 0 0 30px rgba(56, 163, 253, 0), 0 0 0 40px rgba(56, 163, 253, 0.0)
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .button__callback a{
+      width: 50px;
+      height: 50px;
+      padding: 12px;
+      bottom: 20px;
+   }
+}
+
+/*! MODAL */
+
+.modal{
+   top: 70px;
+}
+
+.modal-body .zakaz{
+   background-color: #fff;
+   padding: 0;
+}
