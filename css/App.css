@@ -301,10 +301,11 @@ footer{
 
 @media screen and (max-width: 600px) {
    .button__callback a{
-      width: 50px;
-      height: 50px;
+      width: 70px;
+      height: 70px;
       padding: 12px;
-      bottom: 20px;
+      bottom: 40px;
+      right: 40px;
    }
 }
 
@@ -317,4 +318,10 @@ footer{
 .modal-body .zakaz{
    background-color: #fff;
    padding: 0;
+}
+
+.modal-body .zakaz .form__button{
+   width: 80%;
+   margin: 15px auto 0px auto;
+   
 }
