@@ -59,7 +59,7 @@ body {
 }
 @media screen and (max-width:500px) {
    .home .container {
-      height: 750px;
+      height: 700px;
    }
    .home__image img{
       max-width: 250px;
