@@ -9,33 +9,44 @@ body {
    font-family: 'Roboto';
 }
 
-/*! HEAEDER */
+/*! VIDEO */
 
-header{
+.fullscreen-bg__video {
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+}
+
+@media screen and (min-width:1100px) {
+   .fullscreen-bg__video {
+      width: 100%;
+   }
+}
+@media screen and (max-width:1100px) {
+   .fullscreen-bg__video {
+      height: 100%;
+   }
 }
 
 /*! PAGE HOME */
 
+
+.home {
+   overflow: hidden;
+   background-color: rgba(0, 0, 0, 0.359);
+   position: relative;
+}
 .home .container {
-   height: 650px;
+   height: 100vh;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
 }
-.home {
-   /* background-image: url(../images/mainBG.png); */
-   background-color: #f1f0f0;
-
-   background-attachment: fixed;
-   background-position: 50% 100%;
-   background-repeat: no-repeat;
-   background-size: cover;
-}
 .home__image img{
    max-width: 450px;
    margin: 0px 0px 20px 0px;
-   
 }
 
 @media screen and (max-width:700px) {
@@ -59,6 +70,10 @@ header{
 
 /*! PRODUCTS */
 
+.products{
+   position: relative;
+   background-color: #fff;
+}
 .card-body {
    transition: .3s;
 }
