@@ -36,6 +36,9 @@ body {
    overflow: hidden;
    background-color: rgba(78, 71, 71, 0.504);
    position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .home .container {
    height: 100vh;
