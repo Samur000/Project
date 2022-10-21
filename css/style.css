@@ -59,13 +59,18 @@ body {
 }
 @media screen and (max-width:500px) {
    .home .container {
-      height: 500px;
+      height: 600px;
    }
    .home__image img{
       max-width: 250px;
    }
 }
 @media screen and (max-width:300px) {
+   .home__image img{
+      max-width: 250px;
+   }
+}
+@media screen and (max-width:270px) {
    .home__image img{
       max-width: 200px;
    }
