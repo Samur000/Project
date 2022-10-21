@@ -1,3 +1,18 @@
 .home{
    min-height: 100vh;
 }
+.clients__item{
+   border: 1px solid #928a8a;
+   box-shadow: 5px 5px 2px #bebaba;
+   border-radius: 7px;
+   padding: 20px 0;
+   margin: 15px 0px;
+   transition: .2s;
+}
+.clients__item:hover{
+   box-shadow: 10px 10px 5px #d4d1d1;
+   transform: scale(1.01);
+}
+.clients__item:last-child{
+   margin: 0px 0px 40px 0px;
+}

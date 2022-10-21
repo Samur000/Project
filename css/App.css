@@ -315,6 +315,15 @@ footer{
    top: 70px;
 }
 
+.modal-header a{
+   color: #cc781e;
+   text-decoration: none;
+}
+.modal-header a:hover{
+   color: #e56b14;
+   text-decoration: underline;
+}
+
 .modal-body .zakaz{
    background-color: #fff;
    padding: 0;

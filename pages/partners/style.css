@@ -1,9 +1,16 @@
 .partners__item{
-   border: 1px solid #000000;
+   border: 1px solid #928a8a;
+   box-shadow: 5px 5px 2px #bebaba;
    border-radius: 7px;
    padding: 20px 0;
    margin: 15px 0px;
+   transition: .2s;
+}
+.partners__item:hover{
+   /* border: 1px solid #000; */
+   box-shadow: 10px 10px 5px #d4d1d1;
+   transform: scale(1.01);
 }
 .partners__item:last-child{
-   margin: 0px 0px 40px 0px;
+   /* margin: 0px 0px 40px 0px; */
 }
