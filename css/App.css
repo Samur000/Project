@@ -13,7 +13,7 @@ body {
 
 header {
    position: sticky;
-   top: 45px;
+   top: 44px;
    z-index: 2;
 }
 
@@ -75,7 +75,7 @@ header {
 
 /*! MINI-INFO-CONTACTS */
 
-.mini-info-contacts{
+.header-contacts{
    display: flex;
    align-items: center;
    top: 0px;
@@ -85,35 +85,36 @@ header {
    position: fixed;
    z-index: 3;
 }
-.mini-info-contacts .row{
+.header-contacts .row{
    display: flex;
    justify-content: center;
 }
 
-.mini-info-contacts__item{
+.header-contacts__item{
    display: flex;
    justify-content: center;
    align-items: center;
    text-align: center;
    color: #fff;
 }
-.mini-info-contacts__item img{
-   margin: 0px 5px 0px 0px;
+.header-contacts__item img{
+   height: 20px;
+   margin: 0px 8px 0px 0px;
 }
-.mini-info-contacts__item a{
+.header-contacts__item a{
    color: #fff;
    text-decoration: underline;
 }
-.mini-info-contacts__item a:hover{
+.header-contacts__item a:hover{
    color: rgb(255, 128, 1);
    text-decoration: none;
 }
 @media screen and (max-width: 576px) {
-   .mini-info-contacts__item{
+   .header-contacts__item:first-child{
       margin: 0px 0px 5px 0px;
    }
    .headder{
-      top: 80px;
+      top: 73px;
    }
 }
 /*! FOOTER */
