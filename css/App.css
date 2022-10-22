@@ -76,13 +76,13 @@ header {
 /*! MINI-INFO-CONTACTS */
 
 .header-contacts{
+   position: sticky;
    display: flex;
    align-items: center;
    top: 0px;
    padding: 10px 0px;
    width: 100%;
    background-color: #222329;
-   position: fixed;
    z-index: 3;
 }
 .header-contacts .row{
