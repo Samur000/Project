@@ -13,3 +13,31 @@
    color: blue;
    text-decoration: none;
 }
+
+/*! CALCULATOR */
+
+.online-calculator{
+   padding: 20px 0;
+   background-color: rgb(36, 58, 96);
+   color: rgb(255, 255, 255);
+}
+.online-calculator form{
+   max-width: 300px;
+   margin: 0 auto;
+}
+.online-calculator form button, input{
+   border-radius: 5px;
+   width: 100%;
+}
+
+.calculator-modal{
+   color: #000;
+}
+
+.answer{
+   display: flex;
+   font-size: 18px;
+}
+.answer span{
+   margin: 0px 5px 0px 0px;
+}

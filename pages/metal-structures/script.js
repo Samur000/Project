@@ -18,3 +18,24 @@ $(document).ready(function() {
 	});
 
 });
+
+
+var input = document.querySelectorAll('input');
+var div = document.querySelector('div');
+var res;
+for (let i = 0; i < input.length; i++) {
+  input[i].addEventListener('input', function() {
+    if (inputOne.value !== '' && inputTwo.value !== '' && inputThree.value !== '') {
+      obyem = inputOne.value * inputTwo.value * inputThree.value;
+      resObyem.textContent = ' ' + obyem + ' кв/м';
+      price = obyem * 7000;
+      resPrice.textContent = ' ' + price + ' р';
+
+		resObyemModal.textContent = ' ' + obyem + ' кв/м';
+      resPriceModal.textContent = ' ' + price + ' р';
+
+		document.getElementById('formObyem').value = ' ' + obyem + ' кв/м';
+		document.getElementById('formPrice').value = ' ' + price + ' р';
+    }
+  })
+}

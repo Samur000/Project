@@ -115,77 +115,136 @@
       </div>
     </div>
   </div>
-  
-  <div class="zakaz">
+
+  <div class="online-calculator">
     <div class="container">
-      <h3 class="text-center"><a href="tel:+79882916030">Звоните</a> чтобы заказать!</h3>
-      <h3 class="text-center">Или оставьте номер мы сами вам перезвоним!</h3>
-      <form id="form" class="zakaz__form">
+      <h3 class="text-center">Узнайте цену и закажите прямо на сайте</h3> <br>
 
-        <!-- Hidden Required Fields -->
-        <input type="hidden" name="project_name" value="ЭРА СТАЛЬ">
-        <input type="hidden" name="admin_email" value="stal.era.pochta@gmail.com">
-        <input type="hidden" name="form_subject" value="Металлоконструкции">
-        <!-- END Hidden Required Fields -->
-
+      <form action="" class="form">
         <div class="form__item">
-          <label for="formNmae" class="form__label">Имя*</label>
-          <input id="formNmae" type="text" name="Имя" class="form__input" required>
-       </div>
-       <div class="form__item">
-          <label for="formEmail" class="form__label">E-mail*</label>
-          <input id="formEmail" type="text" name="E-mail" class="form__input" required>
-       </div>
-       <div class="form__item">
-          <label for="formPhone" class="form__label">Телефон*</label>
-          <input id="formPhone" type="text" name="Телефон " class="form__input" required>
-       </div>
-       <button class="form__button">Отправить</button>
+          <label for="" class="form__label">Ширина</label>
+          <input id="inputOne" class="form__input" required>
+        </div>
+        <div class="form__item">
+          <label for="" class="form__label">Высота</label>
+          <input id="inputTwo" class="form__input"  required>
+        </div>
+        <div class="form__item">
+            <label for="" class="form__label">Длина</label>
+            <input id="inputThree" class="form__input" required>
+        </div>
+
+        <div class="otveti">
+          <div class="answer">
+             <span>Объем: </span>
+             <div id="resObyem"></div>
+          </div>
+          <div class="answer">
+             <span>Цена: </span>
+             <div id="resPrice"></div>
+          </div>
+        </div>
+
+        <div class="button__calculator">
+          <a class="form__button" data-bs-toggle="modal" data-bs-target="#calculatorModal">Заказать</a>
+        </div>
       </form>
+      
+      <div class="calculator-modal">
+        <div class="modal fade" id="calculatorModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-center" id="exampleModalLabel">Заказа металлоконструкции с объемом <span id="resObyemModal">0 кв/м</span> за <span id="resPriceModal">0 р</span></h5>
+              </div>
+              <div class="modal-body">
+                <div class="zakaz">
+                  <div class="container">
+                    <form id="form" class="zakaz__form">
+                      <!-- Hidden Required Fields -->
+                      <input type="hidden" name="project_name" value="ЭРА СТАЛЬ">
+                      <input type="hidden" name="admin_email" value="stal.era.pochta@gmail.com">
+                      <input type="hidden" name="form_subject" value="Заказ металлоконструкций">
+                      <!-- END Hidden Required Fields -->
+              
+                      <div class="form__item">
+                        <label for="formNmae" class="form__label">Имя*</label>
+                        <input id="formNmae" type="text" name="Имя" class="form__input" required>
+                      </div>
+                      <div class="form__item">
+                        <label for="formEmail" class="form-label">E-mail</label>
+                        <input id="formEmail" type="email" name="E-mail" class="form__input" required>
+                      </div>
+                      <div class="form__item">
+                          <label for="formPhone" class="form__label">Телефон*</label>
+                          <input id="formPhone" type="text" name="Телефон" class="form__input" required>
+                      </div>
+
+                      <div class="form__item" style="display: none;">
+                          <label for="formObyem" class="form__label">Объем*</label>
+                          <input id="formObyem" type="text" name="Объем" class="form__input" required>
+                      </div>
+                      <div class="form__item" style="display: none;">
+                          <label for="formPrice" class="form__label">Цена*</label>
+                          <input id="formPrice" type="text" name="Цена" class="form__input" required>
+                      </div>
+                      <button type="submit" id="butt" class="form__button">Отправить</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
-  <div class="button__callback">
-    <a  data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="../../icons/phone-call.png" alt=""></a>
-  </div>
-
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title text-center" id="exampleModalLabel">Оставьте номер и мы перезвоним Вам!</h4>
-        </div>
-        <div class="modal-body">
-          <div class="zakaz">
-            <div class="container">
-              <form id="form" class="zakaz__form">
-                <!-- Hidden Required Fields -->
-                <input type="hidden" name="project_name" value="ЭРА СТАЛЬ">
-                <input type="hidden" name="admin_email" value="stal.era.pochta@gmail.com">
-                <input type="hidden" name="form_subject" value="Обратный звонок">
-                <!-- END Hidden Required Fields -->
-        
-                <div class="form__item">
-                  <label for="formNmae" class="form__label">Имя*</label>
-                  <input id="formNmae" type="text" name="Имя" class="form__input" required>
-                </div>
-                <div class="form__item">
-                    <label for="formEmail" class="form__label">E-mail*</label>
-                    <input id="formEmail" type="text" name="E-mail" class="form__input" required>
-                </div>
-                <div class="form__item">
-                    <label for="formPhone" class="form__label">Телефон*</label>
-                    <input id="formPhone" type="text" name="Телефон " class="form__input" required>
-                </div>
-                <button class="form__button">Отправить</button>
-              </form>
+  <div class="callback">
+    <div class="button__callback">
+      <a  data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="../../icons/phone-call.png" alt=""></a>
+    </div>
+  
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-center" id="exampleModalLabel">Оставьте номер и мы перезвоним Вам!</h4>
+          </div>
+          <div class="modal-body">
+            <div class="zakaz">
+              <div class="container">
+                <form id="form" class="zakaz__form">
+                  <!-- Hidden Required Fields -->
+                  <input type="hidden" name="project_name" value="ЭРА СТАЛЬ">
+                  <input type="hidden" name="admin_email" value="stal.era.pochta@gmail.com">
+                  <input type="hidden" name="form_subject" value="Обратный звонок">
+                  <!-- END Hidden Required Fields -->
+          
+                  <div class="form__item">
+                    <label for="formNmae" class="form__label">Имя*</label>
+                    <input id="formNmae" type="text" name="Имя" class="form__input" required>
+                  </div>
+                  <div class="form__item">
+                    <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                    <input type="email" class="form__input" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                  </div>
+                  <div class="form__item">
+                      <label for="formPhone" class="form__label">Телефон*</label>
+                      <input id="formPhone" type="text" name="Телефон " class="form__input" required>
+                  </div>
+                  <button type="submit" class="form__button">Отправить</button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
 
   <footer class="footer">
     <div class="container pt-3 pb-3">
@@ -325,7 +384,7 @@
   <noscript><div><img src="https://mc.yandex.ru/watch/90761155" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
   <!-- /Yandex.Metrika counter -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
   <script src="script.js"></script>
 </body>
