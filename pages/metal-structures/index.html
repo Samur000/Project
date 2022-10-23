@@ -118,25 +118,23 @@
 
   <div class="online-calculator">
     <div class="container">
-      <h3 class="text-center">Узнайте цену и закажите прямо на сайте!</h3> <br>
+      <h3 class="text-center">Узнайте цену и закажите прямо на сайте</h3> <br>
 
       <form action="" class="form">
-        <div class="d-flex gap-1">
-          <div class="form__item">
-            <label for="" class="form__label">Ширина</label>
-            <input id="inputOne" class="form__input" required>
-          </div>
-          <div class="form__item">
-            <label for="" class="form__label">Высота</label>
-            <input id="inputTwo" class="form__input"  required>
-          </div>
-          <div class="form__item">
+        <div class="form__item">
+          <label for="" class="form__label">Ширина</label>
+          <input id="inputOne" class="form__input" required>
+        </div>
+        <div class="form__item">
+          <label for="" class="form__label">Высота</label>
+          <input id="inputTwo" class="form__input"  required>
+        </div>
+        <div class="form__item">
             <label for="" class="form__label">Длина</label>
             <input id="inputThree" class="form__input" required>
-          </div>
         </div>
 
-        <div class="otveti d-flex gap-5">
+        <div class="otveti">
           <div class="answer">
              <span>Объем: </span>
              <div id="resObyem"></div>
@@ -147,39 +145,59 @@
           </div>
         </div>
 
-        <div class="zakaz" style="border-radius: px;">
-          <form id="form" class="zakaz__form">
-            <!-- Hidden Required Fields -->
-            <input type="hidden" name="project_name" value="ЭРА СТАЛЬ">
-            <input type="hidden" name="admin_email" value="stal.era.pochta@gmail.com">
-            <input type="hidden" name="form_subject" value="Заказ металлоконструкций">
-            <!-- END Hidden Required Fields -->
-    
-            <div class="form__item">
-              <label for="formNmae" class="form__label">Имя*</label>
-              <input id="formNmae" type="text" name="Имя" class="form__input" required>
-            </div>
-            <div class="form__item">
-              <label for="formEmail" class="form-label">E-mail</label>
-              <input id="formEmail" type="email" name="E-mail" class="form__input" required>
-            </div>
-            <div class="form__item">
-                <label for="formPhone" class="form__label">Телефон*</label>
-                <input id="formPhone" type="tel" name="Телефон" class="form__input" required>
-            </div>
-
-            <div class="form__item" style="display: none;">
-                <label for="formObyem" class="form__label">Объем*</label>
-                <input id="formObyem" type="text" name="Объем" class="form__input" required>
-            </div>
-            <div class="form__item" style="display: none;">
-                <label for="formPrice" class="form__label">Цена*</label>
-                <input id="formPrice" type="text" name="Цена" class="form__input" required>
-            </div>
-            <button type="submit" id="butt" class="form__button">Отправить</button>
-          </form>
+        <div class="button__calculator">
+          <a class="form__button" data-bs-toggle="modal" data-bs-target="#calculatorModal">Заказать</a>
         </div>
       </form>
+      
+      <div class="calculator-modal">
+        <div class="modal fade" id="calculatorModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-center" style="color: #000;" id="exampleModalLabel">Заказа металлоконструкции с объемом <span id="resObyemModal">0 кв/м</span> за <span id="resPriceModal">0 р</span></h5>
+              </div>
+              <div class="modal-body">
+                <div class="zakaz">
+                  <div class="container">
+                    <form id="form" class="zakaz__form">
+                      <!-- Hidden Required Fields -->
+                      <input type="hidden" name="project_name" value="ЭРА СТАЛЬ">
+                      <input type="hidden" name="admin_email" value="stal.era.pochta@gmail.com">
+                      <input type="hidden" name="form_subject" value="Заказ металлоконструкций">
+                      <!-- END Hidden Required Fields -->
+              
+                      <div class="form__item">
+                        <label for="formNmae" class="form__label">Имя*</label>
+                        <input id="formNmae" type="text" name="Имя" class="form__input" required>
+                      </div>
+                      <div class="form__item">
+                        <label for="formEmail" class="form-label">E-mail</label>
+                        <input id="formEmail" type="email" name="E-mail" class="form__input" required>
+                      </div>
+                      <div class="form__item">
+                          <label for="formPhone" class="form__label">Телефон*</label>
+                          <input id="formPhone" type="text" name="Телефон" class="form__input" required>
+                      </div>
+
+                      <div class="form__item" style="display: none;">
+                          <label for="formObyem" class="form__label">Объем*</label>
+                          <input id="formObyem" type="text" name="Объем" class="form__input" required>
+                      </div>
+                      <div class="form__item" style="display: none;">
+                          <label for="formPrice" class="form__label">Цена*</label>
+                          <input id="formPrice" type="text" name="Цена" class="form__input" required>
+                      </div>
+                      <button type="submit" id="butt" class="form__button">Отправить</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
