@@ -241,6 +241,7 @@ footer{
    background-color: #ebebeb;
    color: rgb(0, 0, 0);
    padding: 20px 0;
+   max-width: 500px;
 }
 .zakaz a{
    color: #eb871d;
@@ -253,7 +254,6 @@ footer{
 .zakaz__form{
    display: flex;
    flex-direction: column;
-   max-width: 450px;
    margin: 0px auto;
 }
 .form__item {
@@ -308,7 +308,6 @@ footer{
 /*! CALLABCK */
 
 .button__callback a{
-   border: 1px solid rgb(255, 255, 255);
    width: 70px;
    height: 70px;
    border-radius: 50%;

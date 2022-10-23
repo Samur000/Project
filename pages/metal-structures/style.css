@@ -22,8 +22,12 @@
    color: rgb(255, 255, 255);
 }
 .online-calculator form{
-   max-width: 300px;
+   max-width: 500px;
    margin: 0 auto;
+}
+.online-calculator .zakaz{
+   background-color: inherit;
+   color: inherit;
 }
 .online-calculator form button, input{
    border-radius: 5px;
@@ -31,12 +35,17 @@
 }
 
 .calculator-modal{
-   color: #000;
+   color: rgb(255, 255, 255);
 }
 
 .answer{
+   margin: 5px 0px 0px 0px;
+   
    display: flex;
    font-size: 18px;
+}
+.answer span{
+   text-decoration: underline;
 }
 .answer span{
    margin: 0px 5px 0px 0px;
